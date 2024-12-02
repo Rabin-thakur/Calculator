@@ -6,3 +6,6 @@ function add(){
   var y= eval(x);
   document.getElementById("a").value=y;
 }
+  function clearDisplay() {
+    document.getElementById("a").value = '';
+}

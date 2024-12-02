@@ -1,0 +1,37 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    display: flex;
+} */
+
+#mainpagebody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width:100%;
+}
+
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 22px;
+    margin: 2px auto;
+    padding: 6px 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar li a{
+    margin: 3px;
+    color: rgb(65, 27, 233);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    color: rgb(201, 50, 50);
+    text-shadow: 2px;
+    text-decoration: underline;
+}
